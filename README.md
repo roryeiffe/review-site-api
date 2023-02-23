@@ -12,4 +12,10 @@
 6. The applicaiton will run on port `http://localhost:8000`
    1. ***You can access interactable documentation of endpoints at `http://localhost:8000/docs`***
 
-#### 
+#### Setting up Ngrok:
+0. Make sure we have uvicorn server up and running.
+1. Install Ngrok: https://ngrok.com/docs/getting-started 
+2. On Windows, unzip/extract it to C/ProgramFiles
+    - Wherever you install it/extract it, just make sure you know where it is
+3. Open up our terminal in the directory in which we installed ngrok
+4. ngrok http <port_number>
